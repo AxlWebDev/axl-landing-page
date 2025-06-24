@@ -1,48 +1,21 @@
-<!DOCTYPE html><html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Invitation to Julie Vik</title>
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      font-family: Arial, sans-serif;
-      background: linear-gradient(to right, #ffecd2, #fcb69f);
-      height: 100vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-    }
-    .container {
-      background-color: white;
-      padding: 3rem;
-      border-radius: 20px;
-      box-shadow: 0 8px 20px rgba(0,0,0,0.2);
-      max-width: 400px;
-    }
-    h1 {
-      font-size: 2rem;
-      margin-bottom: 1rem;
-    }
-    p {
-      font-size: 1.2rem;
-      color: #444;
-    }
-    .profile-pic {
-      margin-top: 2rem;
-      max-width: 100%;
-      border-radius: 12px;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hang Out With Me</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="container">
-    <h1>Invitation to Julie Vik</h1>
-    <p>I invite you to hang out with me</p>
-    <img src="/mnt/data/file-5p9FtvXsAqNzrtGDX6dL7Y" alt="Photo of me" class="profile-pic">
-    <p>This is me now.</p>
-  </div>
+    <div class="container">
+        <img 
+         src="your-photo.jpg" 
+         alt="A photo of me" class="profile-pic">
+        <h1>Hey,</h1>
+        <p>I was wondering if you’d like to hang out sometime soon.</p>
+        <p>Nothing too fancy, just a cozy little moment for just us. Let me know what you think.</p>
+        <p style="margin-top: 1rem;"><em>I’d love to see you.</em></p>
+        <button onclick="alert('Can’t wait to hear from you ❤️')">Say Yes</button>
+    </div>
 </body>
 </html>
